@@ -1,43 +1,47 @@
 Hi
+--------------------------------
 There is some practical git instructions from this persian course.
+
 https://faradars.org/courses/fvgit9609-managed-distributed-edition-using-git
 instructor: @jadijadi
+
+Initializing the directory
 ```
 git init
-```
-initializing the directory
-```
-git add [FileName]: staging the file
 ```
 stage: State of the modified or new file that is ready to be committed.
 everything you have changed --> Stage --> Commit
 ```
+git add [FileName]: staging the file
+```
+Staging all files in directory
+```
 git add -A
 ```
-staging all files in directory
+Every commit has uniqe code
 ```
 git commit -m "commit message"
 ```
-every commit has uniqe code
+Log things you have done until now
 ```
 git log
 ```
-log things you have done until now
-----------------------------------------------------------
+Difference between head and current state
+HEAD : last committed state
 ```
 git diff HEAD
 ```
-difference between head and current state
-HEAD : last committed state
+Difference between staged and current state
 ```
 git diff --staged
 ```
-difference between staged and current state
+
+Take out the file from stage
 ```
 git reset [FileName]
 ```
-take out the file from stage
+
+Replace the file with it's last committed version for example if you had corrupted a file.
 ```
 git chekcout -- [FileName]
 ```
-replace the file with it's last committed version for example if you had corrupted a file.
