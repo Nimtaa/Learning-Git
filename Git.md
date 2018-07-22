@@ -2,26 +2,30 @@ Initializing the directory
 ```
 git init
 ```
-everything you have changed --> Stage --> Commit
+Everything you changed --> Stage --> Commit
 
 Stage: State of the modified or new file that is ready to be committed.
 
-staging the file
+Staging the file
 ```
 git add [FileName]
 ```
+
 Staging all files in directory
 ```
 git add -A
 ```
+
 Every commit has uniqe code
 ```
 git commit -m "commit message"
 ```
+
 Log things you have done until now
 ```
 git log
 ```
+
 Difference between head and current state
 
 HEAD: last committed state
