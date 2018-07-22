@@ -2,10 +2,13 @@ Initializing the directory
 ```
 git init
 ```
-stage: State of the modified or new file that is ready to be committed.
 everything you have changed --> Stage --> Commit
+
+Stage: State of the modified or new file that is ready to be committed.
+
+staging the file
 ```
-git add [FileName]: staging the file
+git add [FileName]
 ```
 Staging all files in directory
 ```
@@ -20,7 +23,8 @@ Log things you have done until now
 git log
 ```
 Difference between head and current state
-HEAD : last committed state
+
+HEAD: last committed state
 ```
 git diff HEAD
 ```
