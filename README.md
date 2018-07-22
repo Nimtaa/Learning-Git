@@ -7,5 +7,6 @@ https://faradars.org/courses/fvgit9609-managed-distributed-edition-using-git
 
 instructor: @jadijadi
 
-
-- [ ] Learn about How Version Control Works
+Next Learning Plan
+--------------------------------
+- [ ] Learn about how Version Control works deeper
