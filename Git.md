@@ -38,3 +38,25 @@ Replace the file with it's last committed version for example if you had corrupt
 ```
 git chekcout -- [FileName]
 ```
+
+Remote
+-------------------------
+Git is distributed system so we can add remote host, push or pull our code to that location.
+
+
+Clone a project from remote ( github || gitlab || other locations )
+```
+git clone [SSH or HTTP Address]
+```
+
+We can list,add remotes.
+```
+git remote
+```
+```
+git remote add origin [Address]
+```
+
+If a same file modified by two or more different users we have conflict when push or pull.
+Git detects the conflict(for example rejects push objects), if modifications located at same place.
+otherwise git merges modifications.
