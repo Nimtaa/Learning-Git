@@ -60,3 +60,21 @@ git remote add origin [Address]
 If a same file modified by two or more different users we have conflict when push or pull.
 Git detects the conflict(for example rejects push objects), if modifications located at same place.
 otherwise git merges modifications.
+
+Tag
+-------------------------------
+We can tag versions of a project.
+
+List all tags.
+```
+git tag
+```
+Add tag, We can add tag to a specific commit by mention the commit hash string.
+```
+git tag -a [annotation] -m "your message"
+git tag -a V2.0 -m 'tag added'
+```
+Show the commit of the tag.
+```
+git show [tag_Name]
+```
