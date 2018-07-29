@@ -63,18 +63,18 @@ otherwise git merges modifications.
 
 Tag
 -------------------------------
-We can tag versions of a project.
+We can tagging the different parts of a project, for example different release versions of a project.
 
-List all tags.
+List the all tags.
 ```
 git tag
 ```
-Add tag, We can add tag to a specific commit by mention the commit hash string.
+Add tag, We can add tag to a specific commit by mentioning the commit hash string too.
 ```
 git tag -a [annotation] -m "your message"
 git tag -a V2.0 -m 'tag added'
 ```
-Show the commit of the tag.
+Show  commit of the tag.
 ```
 git show [tag_Name]
 ```
