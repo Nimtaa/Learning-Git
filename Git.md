@@ -49,6 +49,12 @@ Clone a project from remote ( github || gitlab || other locations )
 git clone [SSH or HTTP Address]
 ```
 
+Clone repository from another remote machine through ssh   
+remote machine needs to be ssh-enabled.  
+```
+git clone git+ssh://machineName@ipAddress/path/to/required/directory
+```
+
 We can list,add remotes.
 ```
 git remote
