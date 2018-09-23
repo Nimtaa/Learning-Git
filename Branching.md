@@ -18,5 +18,5 @@ git merge [branch_Name]
 
 Delete branch
 ```
-git merge -d [branch_Name]
+git branch -d [branch_Name]
 ```
